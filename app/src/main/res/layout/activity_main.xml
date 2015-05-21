@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lowestLayout"
+    android:background="@drawable/bg_gradient">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deltaX"
+        android:textColor="#fff3e4ff"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:text="System Controls"/>
+
+    <Button
+
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="speech"
+        android:textColor="#fff"
+        android:layout_marginTop="200dp"
+        android:id="@+id/speech"
+        android:background="#000"
+        android:alpha="0.3" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/speech"
+        android:id="@+id/mouse"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:alpha="0.3"
+        android:text="mouse"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/custom"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#000"
+        android:alpha="0.3"
+        android:layout_below="@+id/mouse"
+        android:text="custom"/>
+
+</RelativeLayout>

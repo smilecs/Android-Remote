@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom"
+    android:background="@drawable/bg_gradient">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/command"
+        android:hint="type application name"
+        android:textColor="#fff3e4ff"
+        android:textColorHint="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="240dp"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Launch"
+        android:textColor="#fff"
+        android:background="#000"
+        android:alpha="0.3"
+        android:id="@+id/send"
+
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:textColor="#fff3e4ff"
+        android:textColorHint="#fff3e4ff"
+        android:id="@+id/texting"
+        android:layout_marginTop="80dp"
+        android:hint="type to system input fields(click fields before typing)"/>
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="type"
+        android:textColor="#fff"
+        android:background="#000"
+        android:alpha="0.3"
+        android:id="@+id/type"/>
+</LinearLayout>
